@@ -5,7 +5,8 @@ import Header from "../components/Header";
 import { projects } from "../config";
 
 const Project = () => {
-  const colors = createColormap({ colormap: 'plasma', nshades: projects.length * 2 });
+  const shadesCount = projects.length > 5 ? projects.length * 2 : 9;
+  const colors = createColormap({ colormap: 'plasma', nshades: shadesCount });
 
   const projectsDisplay = projects.map((project, idx) => (
     <div

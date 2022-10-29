@@ -6,7 +6,7 @@ import { messages } from "../config";
 const Summary = () => {
   const overall = messages.manager;
   const contentDisplay = overall.content?.map((message, idx) => (
-    <p key={idx} className="text-sm text-slate-800">
+    <p key={idx} className="text-sm text-slate-800 mb-3">
       {message}
     </p>
   ));
