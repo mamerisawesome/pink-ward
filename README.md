@@ -19,18 +19,18 @@ make init
 
 ## Config
 
-### **[user](src/config/user.ts)**
+### **[user](src/config/.temp/user.ts)**
 
 User information of person evaluated.
 
-### **[projects](src/config/projects.ts)**
+### **[projects](src/config/.temp/projects.ts)**
 
 List of projects tied to the person.
 
-### **[assessments](src/config/assessments.ts)**
+### **[assessments](src/config/.temp/assessments.ts)**
 
 Strenghts and points of improvements for person.
 
-### **[messages](src/config/messages.ts)**
+### **[messages](src/config/.temp/messages.ts)**
 
 Comments and other messages from other teammates. Also contains overall summary from manager.
