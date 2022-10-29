@@ -4,6 +4,8 @@ A Performance Evaluation presentation using Spectacle JS. All slide pages are cu
 
 The application also contains some pre-defined constants. The values defined in [Config](#Config) section containing input texts to render in the presentation.
 
+![](./docs/pink-ward-demo.gif)
+
 ## Stack
 
 * React
