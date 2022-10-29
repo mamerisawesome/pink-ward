@@ -19,6 +19,10 @@ make init
 
 ## Config
 
+> User and Evaluation values are ignored and only populated after running `make init` to ensure that assessment values are only stored locally. If deployment is necessary, then build manually and deploy build files to target.
+
+Values to render in the presentation UI.
+
 ### **[user](src/config/.temp/user.ts)**
 
 User information of person evaluated.
