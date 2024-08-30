@@ -31,8 +31,8 @@ const OpenButton = (props: { bgColor: string, color: string, onClick: () => void
 
 const AssessmentList = (props: { assessment: string[] }) => {
   return (
-    <Box className="bg-slate-300 shadow-lg transition duration-500 transform hover:-translate-y-1 rounded-xl pl-2 pr-2">
-      <Text>
+    <Box className="bg-slate-300 shadow-lg transition duration-500 transform hover:-translate-y-1 rounded-xl pl-2 pr-2 py-2">
+      <Text className="max-h-[350px] overflow-y-scroll">
         <ul className="text-xl list-disc">
           {props.assessment.map((strength) => <li key={strength}>{strength}</li>)}
         </ul>
